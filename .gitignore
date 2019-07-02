@@ -4,3 +4,4 @@
 /**/*.DS_Store
 /.idea/
 /app/css/main.min.css
+/app/js/script.min.css

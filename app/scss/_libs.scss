@@ -1,2 +1,11 @@
 @import "../libs/owlcarousel/scss/owl.carousel";
 @import "../libs/owlcarousel/scss/owl.theme.default";
+
+.owl-carousel {
+  max-width: 1920px;
+  margin: 0 auto;
+  .owl-item img {
+    display: block;
+    width: auto;
+  }
+}
