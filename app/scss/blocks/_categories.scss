@@ -1,0 +1,31 @@
+.categories {
+  margin: 40px 0;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  li {
+    margin: 10px 23px;
+  }
+
+  a {
+    color: $categories-color;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 20px;
+    letter-spacing: 1.9px;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    font-weight: 600;
+
+    &:hover {
+      border-bottom-color: $categories-color;
+    }
+  }
+}
