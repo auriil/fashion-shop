@@ -1,5 +1,17 @@
 (function($) {
 
+    var headerSearch = document.querySelector('.header__search');
+    var body = document.querySelector('body');
+
+    headerSearch.addEventListener('click', function (event) {
+        event.stopPropagation();
+        this.classList.add('header__search--active');
+    });
+
+    body.addEventListener('click', function () {
+        headerSearch.classList.remove('header__search--active');
+    });
+
     $(".slider .owl-carousel").owlCarousel({
         loop:true,
         nav: true,
