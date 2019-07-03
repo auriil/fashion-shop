@@ -34,7 +34,6 @@
         responsive: {
             0: {
                 items: 1,
-                dots: true,
                 nav: false
             },
             480: {

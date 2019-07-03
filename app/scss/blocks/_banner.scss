@@ -34,6 +34,22 @@
   }
 }
 
+.banner--left {
+  background: url('../img/banner2.jpg') left center no-repeat #d7dbd5;
+  background-size: cover;
+  justify-content: flex-start;
+
+  .banner__information {
+    margin-right: 0px;
+    margin-left: 70px;
+  }
+
+  a {
+    $values: (background-color: $black, color: $white);
+    @include button($values...);
+  }
+}
+
 @media (max-width: 1100px) {
   .banner {
     background-position: -150px 0;
@@ -51,5 +67,8 @@
       padding: 0 10px;
       box-sizing: border-box;
     }
+  }
+  .banner--left {
+    background: #d7dbd5;
   }
 }
